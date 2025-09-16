@@ -1,0 +1,11 @@
+{
+  "pages": {
+    "/api/warehouses/route": [
+      "static/chunks/f402a582c136d78f.js",
+      "static/chunks/91adb7bdb9870c6a.js",
+      "static/chunks/db8f8797ab57ee2a.js",
+      "static/chunks/2008ffcf9e5b170c.js",
+      "static/chunks/turbopack-7ad4f684b86b2eac.js"
+    ]
+  }
+}

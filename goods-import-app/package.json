@@ -1,0 +1,26 @@
+{
+  "name": "goods-import-app",
+  "version": "1.0.0",
+  "description": "A web application for importing goods with support for Excel and CSV file formats, including AI parsing capabilities.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "xlsx": "^0.17.0",
+    "papaparse": "^5.3.0",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2"
+  },
+  "license": "MIT"
+}

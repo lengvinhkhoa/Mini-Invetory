@@ -1,0 +1,25 @@
+{
+  "pages": {
+    "/dashboard/warehouses/[id]/page": [
+      "static/chunks/c102923d9b74a489.js",
+      "static/chunks/2473c16c0c2f6b5f.css",
+      "static/chunks/6ecfd01499e9ca18.css",
+      "static/chunks/ceadd10bd08a76c0.js",
+      "static/chunks/eec38d9ccbf73c9b.js",
+      "static/chunks/99be59588d86bebc.js",
+      "static/chunks/ca46e6cb0bdc83c0.js",
+      "static/chunks/e8de2e8cdf1d436f.js",
+      "static/chunks/5f3ee197c741bbed.js",
+      "static/chunks/cf7df66c94292fa0.js",
+      "static/chunks/f92f74065a800e29.js",
+      "static/chunks/970dc88fc7803f4f.js",
+      "static/chunks/e8885154903cdeed.js",
+      "static/chunks/fff29e71e3d38458.js",
+      "static/chunks/f402a582c136d78f.js",
+      "static/chunks/91adb7bdb9870c6a.js",
+      "static/chunks/db8f8797ab57ee2a.js",
+      "static/chunks/2008ffcf9e5b170c.js",
+      "static/chunks/turbopack-7ad4f684b86b2eac.js"
+    ]
+  }
+}
