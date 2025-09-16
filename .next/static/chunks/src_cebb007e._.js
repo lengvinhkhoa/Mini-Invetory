@@ -65,10 +65,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2
 ;
 function readConfig() {
     return {
-        apiKey: ("TURBOPACK compile-time value", "AIzaSyCo92GuVQyYX3KJIvSIQ-8jGqOOXJh-kE"),
+        apiKey: ("TURBOPACK compile-time value", "AIzaSyCo92GuVQyYX3KJlvSlQ-8jGqOOXJh--kE"),
         authDomain: ("TURBOPACK compile-time value", "inventory-mini-by-aurora-cap.firebaseapp.com"),
         projectId: ("TURBOPACK compile-time value", "inventory-mini-by-aurora-cap"),
-        storageBucket: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+        storageBucket: ("TURBOPACK compile-time value", "inventory-mini-by-aurora-cap.firebasestorage.app"),
         messagingSenderId: ("TURBOPACK compile-time value", "299099907994"),
         appId: ("TURBOPACK compile-time value", "1:299099907994:web:6f9eb75577f5cbd125bc23")
     };

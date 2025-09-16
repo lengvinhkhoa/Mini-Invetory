@@ -1,3 +1,12 @@
-module.exports=[55742,e=>e.a(async(a,t)=>{try{let a=await e.y("firebase-admin/firestore");e.n(a),t()}catch(e){t(e)}},!0)];
+module.exports = [
+"[externals]/firebase-admin/firestore [external] (firebase-admin/firestore, esm_import)", ((__turbopack_context__) => {
+"use strict";
 
-//# sourceMappingURL=%5Bexternals%5D_firebase-admin_firestore_cc86207c._.js.map
+return __turbopack_context__.a(async (__turbopack_handle_async_dependencies__, __turbopack_async_result__) => { try {
+
+const mod = await __turbopack_context__.y("firebase-admin/firestore");
+
+__turbopack_context__.n(mod);
+__turbopack_async_result__();
+} catch(e) { __turbopack_async_result__(e); } }, true);}),
+];
