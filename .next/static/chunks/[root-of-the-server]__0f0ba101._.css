@@ -1878,6 +1878,10 @@
     overflow-y: auto;
   }
 
+  .rounded {
+    border-radius: .25rem;
+  }
+
   .rounded-\[2px\] {
     border-radius: 2px;
   }
@@ -1987,6 +1991,10 @@
     border-color: var(--color-border);
   }
 
+  .border-border {
+    border-color: var(--border);
+  }
+
   .border-border\/50 {
     border-color: var(--border);
   }
@@ -1995,6 +2003,10 @@
     .border-border\/50 {
       border-color: color-mix(in oklab, var(--border) 50%, transparent);
     }
+  }
+
+  .border-destructive {
+    border-color: var(--destructive);
   }
 
   .border-gray-200 {
@@ -2009,8 +2021,22 @@
     border-color: var(--color-green-200);
   }
 
+  .border-green-500 {
+    border-color: var(--color-green-500);
+  }
+
   .border-input {
     border-color: var(--input);
+  }
+
+  .border-muted-foreground\/25 {
+    border-color: var(--muted-foreground);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .border-muted-foreground\/25 {
+      border-color: color-mix(in oklab, var(--muted-foreground) 25%, transparent);
+    }
   }
 
   .border-primary {
@@ -2083,6 +2109,16 @@
     background-color: var(--destructive);
   }
 
+  .bg-destructive\/10 {
+    background-color: var(--destructive);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-destructive\/10 {
+      background-color: color-mix(in oklab, var(--destructive) 10%, transparent);
+    }
+  }
+
   .bg-foreground {
     background-color: var(--foreground);
   }
@@ -2111,6 +2147,16 @@
     background-color: var(--muted);
   }
 
+  .bg-muted\/20 {
+    background-color: var(--muted);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-muted\/20 {
+      background-color: color-mix(in oklab, var(--muted) 20%, transparent);
+    }
+  }
+
   .bg-muted\/50 {
     background-color: var(--muted);
   }
@@ -2127,6 +2173,16 @@
 
   .bg-primary {
     background-color: var(--primary);
+  }
+
+  .bg-primary\/5 {
+    background-color: var(--primary);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-primary\/5 {
+      background-color: color-mix(in oklab, var(--primary) 5%, transparent);
+    }
   }
 
   .bg-primary\/20 {
@@ -3169,6 +3225,18 @@
   .last\:border-b-0:last-child {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 0;
+  }
+
+  @media (hover: hover) {
+    .hover\:border-muted-foreground\/50:hover {
+      border-color: var(--muted-foreground);
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:border-muted-foreground\/50:hover {
+        border-color: color-mix(in oklab, var(--muted-foreground) 50%, transparent);
+      }
+    }
   }
 
   @media (hover: hover) {

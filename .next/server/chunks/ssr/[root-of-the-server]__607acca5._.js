@@ -146,12 +146,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2
 ;
 function readConfig() {
     return {
-        apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-        authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-        projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+        apiKey: ("TURBOPACK compile-time value", "AIzaSyCo92GuVQyYX3KJIvSIQ-8jGqOOXJh-kE"),
+        authDomain: ("TURBOPACK compile-time value", "inventory-mini-by-aurora-cap.firebaseapp.com"),
+        projectId: ("TURBOPACK compile-time value", "inventory-mini-by-aurora-cap"),
         storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-        messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-        appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID
+        messagingSenderId: ("TURBOPACK compile-time value", "299099907994"),
+        appId: ("TURBOPACK compile-time value", "1:299099907994:web:6f9eb75577f5cbd125bc23")
     };
 }
 function getFirebaseClients() {

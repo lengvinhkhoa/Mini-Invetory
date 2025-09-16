@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/Mini-Invetory/src/app/api/auth/logout/route.ts"],"sourcesContent":["import { NextRequest, NextResponse } from \"next/server\";\r\n\r\nexport async function POST(request: NextRequest) {\r\n  const response = NextResponse.json({ success: true });\r\n  \r\n  // Xóa session cookie\r\n  response.cookies.set(\"auth-token\", \"\", {\r\n    maxAge: 0,\r\n    httpOnly: true,\r\n    secure: process.env.NODE_ENV === \"production\",\r\n    sameSite: \"lax\",\r\n  });\r\n\r\n  return response;\r\n}"],"names":[],"mappings":";;;;AAAA;;AAEO,eAAe,KAAK,OAAoB;IAC7C,MAAM,WAAW,gJAAY,CAAC,IAAI,CAAC;QAAE,SAAS;IAAK;IAEnD,qBAAqB;IACrB,SAAS,OAAO,CAAC,GAAG,CAAC,cAAc,IAAI;QACrC,QAAQ;QACR,UAAU;QACV,QAAQ,oDAAyB;QACjC,UAAU;IACZ;IAEA,OAAO;AACT","debugId":null}}]
+}
